@@ -6,6 +6,24 @@ Powered by 会引擎<sup>TM</sup>
 
 
 ---
+### Relationship picture
+```
+Your EMS = Your Event Management System
+
+sequenceDiagram
+Your EMS->>会引擎: 推送会议
+```
+
+### How to use 会引擎
+```
+sequenceDiagram
+Your EMS->>会引擎: 1.获取token
+会引擎->>Your EMS: 2.返回token
+Your EMS->>会引擎: 3.获取应用程序入口
+会引擎->>Your EMS: 4.返回入口
+Your EMS->>会引擎: 5.打开应用程序
+会引擎->>会引擎: 6.使用资源至会议完成
+```
 
 
 
