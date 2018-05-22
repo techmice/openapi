@@ -1,6 +1,7 @@
 
 
 <html>
+TechMICE v0.0.1
 Powered by 会引擎<sup>TM</sup>
 </html>
 
@@ -10,13 +11,14 @@ Powered by 会引擎<sup>TM</sup>
 ```
 Your EMS = Your Event Management System
 
-sequenceDiagram
+Getting start, you can push events which running in internal sytem, such as called EMS...
+
 Your EMS->>会引擎: 推送会议
 ```
 
 ### How to use 会引擎
 ```
-sequenceDiagram
+
 Your EMS->>会引擎: 1.获取token
 会引擎->>Your EMS: 2.返回token
 Your EMS->>会引擎: 3.获取应用程序入口
